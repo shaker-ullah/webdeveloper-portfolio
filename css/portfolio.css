@@ -1,42 +1,96 @@
 /* common shared styles */
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
+
+
 /* primay color */
-.primary-color{
-   color:  #FD6E0A;
+.primary-color {
+    color: #FD6E0A;
 }
-.primary-btn{
+
+.primary-btn {
     border-radius: 5px;
-background: #FD6E0A;
-border: 0;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-color: white;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
 }
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    /* 166.667% */
+}
+
+
+/* header */
+
+.header-class {
+    background-color: #FFF8F3;
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
 /* nav related styles */
-nav{
-    display:flex;
+nav {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.nav-title {
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+    padding: 15px 35px;
+}
+
+nav>ul {
+    display: flex;
     align-items: center;
 }
 
-.nav-title{
-color: var(--Dark-01, #181818);
-font-size: 45px;
-font-weight: 800;
-padding: 15px 35px;
-}
-nav>ul{
-    display: flex;
-   align-items: center;
-}
-nav > ul>li {
+nav>ul>li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner img {
+    width: 400px;
+    height: 500px;
+}
+
+/* main section styles*/
+
+/* about section style */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
 }
