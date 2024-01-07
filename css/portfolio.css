@@ -17,6 +17,7 @@ body {
     font-style: normal;
     font-weight: 700;
     color: white;
+    padding: 10px 25px;
 }
 
 .section-title {
@@ -134,4 +135,16 @@ main {
     color:  #474747;
     font-size: 30px;
     font-weight: 700;
+}
+
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+.resume-description, .resume-item-institute{
+    color:  #757575;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
